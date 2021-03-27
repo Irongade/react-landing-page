@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "react-landing-page-bfaea",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
